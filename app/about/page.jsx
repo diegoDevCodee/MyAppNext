@@ -1,8 +1,8 @@
 function AboutPage() {
   return (
     <div>
-      <h1>About</h1>
-      <p>
+      <h1 className="text-colorText font-semibold text-3xl p-8">About</h1>
+      <p className="px-8 text-lg text-cyan-50">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
         quisquam quibusdam ratione maxime quaerat facilis architecto quam nam
         possimus aut iste, repellat nemo, tempora, dolore recusandae voluptatum
