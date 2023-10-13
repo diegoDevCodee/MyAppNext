@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     domains:['reqres.in']
-  }
-}
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
