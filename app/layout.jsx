@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 
 import Navigation from "@/components/Navigation";
 import "./globals.css";
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className="bg-color1 min-h-screen font-poppins tracking-wide">
         <Navigation/>
         {children}
+        <Analytics/>
       </body>
     </html>
   );
