@@ -1,6 +1,7 @@
 // Esto es para hacer que mi component no solo sea visual o muestre sino que tambien tenga interactividad, como un onClick
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 function Users({ users }) {
@@ -14,15 +15,15 @@ function Users({ users }) {
           key={user.id}
         >
           <div>
-            <img
+            <Image
               className="rounded-full cursor-pointer hover:scale-105 transition-all"
               onClick={() => {
                 router.push(`/users/${user.id}`);
               }}
               src={user.avatar}
               alt={user.email}
-              width="100px"
-              height="100px"
+              width={100}
+              height={100}
             />
           </div>
           <div className="flex flex-col gap-6 text-sm">
