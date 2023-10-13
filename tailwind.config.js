@@ -24,6 +24,7 @@ module.exports = {
       fontFamily:{
         poppins:'Poppins'
       }
+      
     },
   },
   plugins: [],

@@ -1,8 +1,8 @@
 function ServicePage() {
   return (
     <div>
-      <h1>Services</h1>
-      <p>
+      <h1 className="text-colorText font-semibold text-3xl p-8">Services</h1>
+      <p className="px-8 text-lg text-cyan-50">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officia
         assumenda, necessitatibus fuga recusandae libero asperiores voluptas
         cumque, perspiciatis hic omnis, ea aperiam maxime quia tenetur.
